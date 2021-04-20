@@ -1,19 +1,12 @@
-## About Laravel 7 Starter APP
+## About Pendaftaran Pendakian Online
 
-Laravel 7 Starter App & admin LTE 3
-
-## Demo
-
-- <a href="http://demo.isengoding.my.id" target="blank">Demo</a>
+Merupakan aplikasi yang dibangun menggunakan kerangka kerja laravel, digunakan untuk pendaftaran dan penyewaan fasilitas pendakian
 
 ## Installasi
-- Download repository dan ekstrak atau clone repository
-	```sh
-	$ git clone https://github.com/isengoding/lara7-starterapp.git
-	```
+
 - Masuk ke direktori aplikasi dan jalankan composer
 	```sh
-	$ cd lara7-starterapp
+	$ cd nama-app-kalian
 	$ composer install
 	```
  - Copy file .env.example menjadi .env
@@ -31,14 +24,6 @@ Laravel 7 Starter App & admin LTE 3
     DB_USERNAME=your_mysql_username.
     DB_PASSWORD=your_mysql_password.
 	```
-- Migrate table
-	```sh
-	$ php artisan migrate
-	```
-- Seed table
-	```sh
-	$ php artisan db:seed
-	```
 - Jalankan lokal development server
     ```sh
 	$ php artisan serve
@@ -49,16 +34,4 @@ Laravel 7 Starter App & admin LTE 3
 	Username :  admin@admin.com
     Password :  password
 	```
- ## Author
-Isengoding – isengoding@gmail.com
-
-[https://github.com/isengoding/](https://github.com/isengoding/)
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- <a href="http://isengoding.my.id" target="_blank">isengoding.my.id</a>.
-
-"# Aplikasi pendaftaran pendakian dan penyewaan fasilitas pendakian menggunakan framework laravel" 
+# Aplikasi pendaftaran pendakian dan penyewaan fasilitas pendakian menggunakan framework laravel
